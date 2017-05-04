@@ -1,0 +1,94 @@
+ <div class="single-product">
+                                <div class="product-f-image">
+                                    <img src="img/index/product-2.jpg" alt="">
+                                    <div class="product-hover">
+                                        <a href="#" class="add-to-cart-link"><i class="fa fa-shopping-cart"></i> Add to cart</a>
+                                        <a href="single-product.html" class="view-details-link"><i class="fa fa-link"></i> See details</a>
+                                    </div>
+                                </div>
+                                
+                                <h2>Nokia Lumia 1320</h2>
+                                
+                               
+                                 <div class="product-carousel-price">
+                                    
+                                    <span>
+                                    <b>即将开始</b>
+                                    </span>
+                                </div>
+                                
+                                </div> 
+                            
+                            <div class="single-product">
+                                <div class="product-f-image">
+                                    <img src="img/index/product-3.jpg" alt="">
+                                    <div class="product-hover">
+                                        <a href="#" class="add-to-cart-link"><i class="fa fa-shopping-cart"></i> Add to cart</a>
+                                        <a href="single-product.html" class="view-details-link"><i class="fa fa-link"></i> See details</a>
+                                    </div>
+                                </div>
+                                
+                                <h2>LG Leon 2015</h2>
+                                    
+                                     <div class="product-carousel-price">
+                                    
+                                    <span>
+                                    <b>无货</b>
+                                    </span>
+                                      </div>
+                               
+                            </div>
+                            <div class="single-product">
+                                <div class="product-f-image">
+                                    <img src="img/index/product-4.jpg" alt="">
+                                    <div class="product-hover">
+                                        <a href="#" class="add-to-cart-link"><i class="fa fa-shopping-cart"></i> Add to cart</a>
+                                        <a href="single-product.html" class="view-details-link"><i class="fa fa-link"></i> See details</a>
+                                    </div>
+                                </div>
+                                
+                                <h2><a href="single-product.html">Sony microsoft</a></h2>
+
+                                     <div class="product-carousel-price">
+                                    
+                                    <span>
+                                    <b>待收货</b>
+                                    </span>
+                                </div>                          
+                            </div>
+                            <div class="single-product">
+                                <div class="product-f-image">
+                                    <img src="img/index/product-5.jpg" alt="">
+                                    <div class="product-hover">
+                                        <a href="#" class="add-to-cart-link"><i class="fa fa-shopping-cart"></i> Add to cart</a>
+                                        <a href="single-product.html" class="view-details-link"><i class="fa fa-link"></i> See details</a>
+                                    </div>
+                                </div>
+                                
+                                <h2>iPhone 6</h2>
+
+                                     <div class="product-carousel-price">
+                                   
+                                    <span>
+                                    <b>无货</b>
+                                    </span>
+                                </div>                                 
+                            </div>
+                            <div class="single-product">
+                                <div class="product-f-image">
+                                    <img src="img/index/product-6.jpg" alt="">
+                                    <div class="product-hover">
+                                        <a href="#" class="add-to-cart-link"><i class="fa fa-shopping-cart"></i> Add to cart</a>
+                                        <a href="single-product.html" class="view-details-link"><i class="fa fa-link"></i> See details</a>
+                                    </div>
+                                </div>
+                                
+                                <h2><a href="single-product.html">Samsung gallaxy note 4</a></h2>
+
+                                     <div class="product-carousel-price">
+                                   
+                                    <span>
+                                    <b>无货</b>
+                                    </span>
+                                </div>                            
+                            </div>

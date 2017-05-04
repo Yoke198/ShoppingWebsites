@@ -1,0 +1,17 @@
+#Wed Jan 04 08:59:38 CST 2017
+eclipse.preferences.version=1
+encoding//WebRoot/admin/js/locale/easyui-lang-zh_CN.js=UTF-8
+encoding//WebRoot/admin/js/locale/easyui-lang-zh_TW.js=UTF-8
+encoding//WebRoot/css/login/structure.css=UTF-8
+encoding//WebRoot/css/register/register.css=UTF-8
+encoding//WebRoot/js/login/check.js=UTF-8
+encoding//WebRoot/js/register/check.js=UTF-8
+encoding//WebRoot/sql/goods.sql=UTF-8
+encoding//WebRoot/sql/onebuy.sql=UTF-8
+encoding//WebRoot/sql/shopping.sql=UTF-8
+encoding//WebRoot/sql/websites.sql=UTF-8
+encoding//src/com/yoke/action/LoginAction.java=UTF-8
+encoding//src/com/yoke/action/RegisterAction.java=UTF-8
+encoding//src/com/yoke/entity/ParameterEntity.java=UTF-8
+encoding//src/config/language_en_US.properties=UTF-8
+encoding//src/config/language_zh_CN.properties=UTF-8

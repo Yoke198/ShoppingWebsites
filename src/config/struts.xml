@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+	"http://struts.apache.org/dtds/struts-2.3.dtd">
+
+<struts>
+	<!-- 配置struts2的请求后缀 extension延展 -->
+	<constant name="struts.action.extension" value="action,do,html,"></constant>
+	<!-- 修改struts2.xml,不需要重启服务器 configuration配置  reload重装 -->
+	<constant name="struts.configuration.xml.reload" value="true"></constant>
+	<!-- 配置国际化 value:文件名 -->
+	<constant name="struts.custom.i18n.resources" value="language"></constant>
+	
+    <package name="default" namespace="/" extends="struts-default">  
+      		
+		<!-- 首页 -->
+		<action name="index">
+			<result type="chain">commodity</result>
+		</action> 
+		<action name="commodity" class="com.yoke.action.CommodityAction" method="commodityList">
+			<result>index.jsp</result>
+		</action>
+
+		<!-- 商品详情 -->
+		<action name="details" class="com.yoke.action.CommodityDetailsAction" method="commodityDetails">
+			<result>details.jsp</result>
+		</action>
+		<!-- 跳转购物车 -->
+		<action name="skipcart" class="com.yoke.action.CartAction" method="cart">
+			<result>/details.jsp</result>
+			<result name="cartpage">/cart.jsp</result>
+		</action>
+		<!-- 订单 -->
+		<action name="order">
+			<result type="chain">dingdan</result>
+		</action> 
+		<action name="dingdan" class="com.yoke.action.CartAction" method="cart">
+			<result>order.jsp</result>
+		</action>
+		
+		<action name="register">
+			<result>register.jsp</result>
+		</action>
+		<!-- 注册 -->
+		<action name="reg" class="com.yoke.action.RegisterAction" method="register">
+			<result name="registerSuccess">/index.jsp</result>
+			<result name="input">/register.jsp</result>
+		</action>     		
+		<!-- 登陆 -->
+		<action name="log" class="com.yoke.action.LoginAction" method="login">
+			<result name="loginSuccess">/index.jsp</result>
+			<result name="input">/login.jsp</result>
+		</action>
+		<!-- 验证用户名 -->
+		<action name="checkName" class="com.yoke.action.CheckNameAction" method="check">
+		<result name="input">/register.jsp</result>
+		<result name="success">/login.jsp</result>
+		</action>
+          
+          <!-- 登陆 
+          	<result name="loginSuccess">index.jsp</result>
+          	<result name="{2}">{2}.jsp</result>
+          	<result name="input">{2}.jsp</result>
+          -->
+          <!-- 注册
+             <result name="registerSuccess">login.jsp</result>
+             <result name="{2}">{2}.jsp</result>
+           -->
+
+          <!-- 国际化 -->
+          <action name="change" class="com.yoke.action.LanguageAction" method="changeLanguage">
+          	  <result name="success" type="chain">${url}</result>
+          </action>
+    </package>
+
+</struts>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
